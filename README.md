@@ -34,12 +34,7 @@ The dataset used for training the model consists of camera images and the corres
    git clone https://github.com/ahmdmohamedd/self-driving-car-simulation.git
    ```
 
-2. Install the required dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. Download the dataset from [this link](https://d17h27t6h515a5.cloudfront.net/topher/2016/December/584f6edd_data/data.zip), and extract it into the project folder.
+2. Download the dataset from [this link](https://d17h27t6h515a5.cloudfront.net/topher/2016/December/584f6edd_data/data.zip), and extract it into the project folder.
 
 ## Training the Model
 
