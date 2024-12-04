@@ -70,6 +70,15 @@ model = load_model('self_driving_car_model.h5')
 # Use the model to predict steering angles for new images
 steering_angle = model.predict(image)
 ```
+3. If you have a simulator environment, implement the steering control using the trained model
+
+```python
+# Simulated example (pseudo-code)
+# def control_vehicle(image):
+#     preprocessed_image = preprocess_image(image)
+#     steering_angle = model.predict(preprocessed_image[np.newaxis, ...])[0][0]
+#     return steering_angle
+```
 
 ## Contributing
 
