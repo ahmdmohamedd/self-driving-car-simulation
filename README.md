@@ -65,7 +65,7 @@ To load the saved model and run simulations:
 from keras.models import load_model
 
 # Load the pre-trained model
-model = load_model('model.h5')
+model = load_model('self_driving_car_model.h5')
 
 # Use the model to predict steering angles for new images
 steering_angle = model.predict(image)
